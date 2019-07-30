@@ -1,18 +1,32 @@
 html{
 	font-size: 10px;
-	font-family: 'Rubik', sans-serif;
+	/*font-family: 'Rubik', sans-serif;*/
+	/*font-family: 'Oswald', sans-serif;*/
+}
+.font{
+	/*font-family: 'Oswald', sans-serif;*/
+	/*font-family: 'IBM Plex Mono', monospace;*/
+	font-family: 'Source Sans Pro', sans-serif;
 }
 .head{
-	background-color: rgb(63,158,252);
+	/*background-color: rgba(63,158,252,1);*/
+	background: rgb(45,49,58);
+	/*position: fixed;*/
 }
 .logo-block{
-	/*padding: 0.8rem 1.5rem 0.8rem 1.5rem;*/
+	padding: 0.8rem 1.5rem 0.8rem 1.5rem;
 	margin: 0;
 }
 .logo-img{
-	margin: 0.8rem 1.5rem 0.8rem 1.5rem;
-	border-radius: 0.5rem;
+	/*padding: 0.8rem 1.5rem 0.8rem 1.5rem;*/
+	/*border-radius: 0.5rem;*/
 	width: 100%;
+}
+nav{
+	height: 100%;
+}
+.navbar-collapse{
+	margin-top: auto;
 }
 .menu-block{
 	margin: 0;
@@ -21,7 +35,7 @@ html{
     display: block;
     padding: .5rem;
 	color: #fff;
-	font-weight: 700;
+	font-weight: 400;
 	font-size: 1.3rem;
 }
 .nav-elem:hover{
@@ -30,7 +44,7 @@ html{
 }
 .nav-block{
 	padding: 0 .5rem 0 .5rem;
-	border-radius: .5rem;
+	/*border-radius: .5rem;*/
 	transition: 0.8s;
 	margin-left: .5rem;
 }
@@ -39,8 +53,14 @@ html{
 	background-color: rgba(255,255,255,.3);
 	transition: 0.8s;
 }
+.a-btn, .a-btn label{
+	cursor: pointer;
+}
+.a-btn:hover{
+	text-decoration: none;
+}
 .body-img{
-	height: 100vh;
+	height: 90vh;
 	background: url('../image/bg.png') no-repeat center center;
 	background-size: cover;
 }
@@ -53,11 +73,13 @@ html{
 	height: 60%;
 }
 .body-label-1{
-	font-weight: 700;
-	/*font-size: 4rem;*/
+	font-weight: 400;
+	font-size: 4rem;
 	/*font-size: 5vw;*/
-	font-size: 7.5vh;
+	/*font-size: 7.5vh;*/
 	color: #fff;
+	width: 100%;
+	text-align: center;
 	padding-top: 2rem;
 	/*padding-top: 8rem;*/
 }
@@ -90,13 +112,13 @@ html{
 	color: rgb(51,51,51);
 }
 .left-block{
-	padding-top: 4rem;
-	padding-bottom: 4rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 	background-color: rgb(63,158,252);
 }
 .right-block{
-	padding-top: 4rem;
-	padding-bottom: 4rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 	background-color: rgb(51,51,51);
 }
 .label-big-2{
@@ -125,15 +147,38 @@ html{
 .price-btn{
 	padding: 0.8rem 1.3rem 0.8rem 1.3rem;
 	font-size: 1.4rem;
-	color: rgb(51,51,51);
-	background: #fff;
+	/*color: rgb(51,51,51);*/
+	color: #fff;
+	/*background: #fff;*/
+	background: rgb(51,51,51);
+	border: 3px solid rgb(51,51,51);
 	transition: .3s;
 }
 .price-btn:hover{
 	text-decoration: none;
 	/*background: rgb(51,51,51);*/
 	/*background: rgb(63,158,252);*/
-	background-color: rgb(121,187,253);
+	/*background-color: rgb(121,187,253);*/
+	background: none;
+	color: rgb(51,51,51);
+	transition: .3s;
+}
+.price-btn2{
+	padding: 0.8rem 1.3rem 0.8rem 1.3rem;
+	font-size: 1.4rem;
+	/*color: rgb(51,51,51);*/
+	color: rgb(25,70,114);
+	background: none;
+	/*background: rgb(51,51,51);*/
+	border: 3px solid rgb(25,70,114);
+	transition: .3s;
+}
+.price-btn2:hover{
+	text-decoration: none;
+	/*background: rgb(51,51,51);*/
+	/*background: rgb(63,158,252);*/
+	/*background-color: rgb(121,187,253);*/
+	background: rgb(25,70,114);
 	color: #fff;
 	transition: .3s;
 }
@@ -159,12 +204,21 @@ html{
 	margin-bottom: 3rem;
 }
 .label-normal-2-white{
-	font-weight: 400;
+	font-weight: 300;
 	padding: 2rem;
 	font-size: 1.4rem;
 	line-height: 1.8rem;
 	color: #fff;
 	border-left: 1px solid #fff;
+
+}
+.label-normal-4-white{
+	font-weight: 300;
+	padding-top: 1rem;
+	font-size: 1.4rem;
+	line-height: 1.8rem;
+	color: #fff;
+	/*border-left: 1px solid #fff;*/
 
 }
 .body-img-3-lmon{
@@ -281,7 +335,16 @@ html{
 }
 div .img{
 	overflow:hidden;
+	/*position: relative;*/
 }
+/*.portfolio-span{*/
+	/*position: absolute;*/
+	/*top: 50%;*/
+    /*left: 50%;*/
+    /*transform: translateY(-50%) translateX(-50%);*/
+	/*color: rgb(51,51,51);*/
+	/*font-size: 1.3rem;*/
+/*}*/
 .portfolio-img{
 	width: 100%;
 	transition: all 1s ease-out;
@@ -378,6 +441,21 @@ div .circle-div{
 	color: #fff;
 	transition: .3s;
 }
+.bg-service1{
+	border: 1px solid rgb(51,51,51);
+	background: rgb(19,61,103);
+	transition: .3s;
+}
+.bg-service1:hover, .bg-service2:hover{
+	background: rgb(0,80,159);
+	transition: .3s;
+}
+.bg-service2{
+	border: 1px solid rgb(51,51,51);
+	background: rgb(25,70,114);
+	transition: .3s;
+}
+
 /*.input-contact:placeholder{
 	font-size: 1rem;
 	color: rgb(51,51,51);
