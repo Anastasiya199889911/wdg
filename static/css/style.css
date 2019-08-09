@@ -22,6 +22,9 @@ html{
 	/*border-radius: 0.5rem;*/
 	width: 100%;
 }
+.light-bg{
+	background: rgb(241,243,240);
+}
 nav{
 	height: 100%;
 }
@@ -87,7 +90,7 @@ nav{
 	height: 40%;
 }
 .body-label-2{
-	font-weight: 700;
+	font-weight: 400;
 	/*font-size: 2.4rem;*/
 	/*font-size: 2.8vw;*/
 	font-size: 4.6vh;
@@ -251,12 +254,12 @@ nav{
 	margin-bottom: 3rem;
 }
 .label-big-white-bmon{
-	font-size: 3.4rem;
+	font-size: 2.5rem;
 	/*font-size: 5.5vh;*/
 	/*font-size: 4vw;*/
-	font-weight: 700;
+	font-weight: 400;
 	color: #fff;
-	margin-bottom: 3rem;
+	margin-bottom: 2rem;
 }
 
 .label-big-black-lmon{
@@ -284,18 +287,19 @@ nav{
 	/*margin-top: 3rem;*/
 }
 .icon-2{
-	/*font-size: 5rem;*/
-	font-size: 4vw;
-	color: #fff;
+	font-size: 2.5rem;
+	/*font-size: 4vw;*/
+	/*color: #fff;*/
+	color:rgb(146,156,166);
 	/*vertical-align: middle;*/
 	/*margin-top: 3rem;*/
 }
 .label-normal-3-white-bmon{
-	font-weight: 400;
+	font-weight: 200;
 	/*margin-top: 3rem;*/
 	/*margin-bottom: 3rem;*/
 	padding: 1rem;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	/*font-size: 2.3vh;*/
 	/*line-height: 1.8rem;*/
 	color: #fff;
