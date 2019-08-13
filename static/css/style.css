@@ -3,6 +3,9 @@ html{
 	/*font-family: 'Rubik', sans-serif;*/
 	/*font-family: 'Oswald', sans-serif;*/
 }
+.align-c{
+	text-align: center;
+}
 .font{
 	/*font-family: 'Oswald', sans-serif;*/
 	/*font-family: 'IBM Plex Mono', monospace;*/
@@ -271,12 +274,12 @@ nav{
 	margin-bottom: 3rem;
 }
 .label-big-black-bmon{
-	font-size: 3.4rem;
+	font-size: 2.5rem;
 	/*font-size: 5.5vh;*/
 	/*font-size: 4vw;*/
-	font-weight: 700;
+	font-weight: 400;
 	color: rgb(51,51,51);
-	margin-bottom: 3rem;
+	margin-bottom: 2rem;
 }
 
 .icon-bmon{
@@ -459,7 +462,24 @@ div .circle-div{
 	background: rgb(25,70,114);
 	transition: .3s;
 }
-
+/*.bg-number1{*/
+	/*background: url('../image/01.png') no-repeat center center;*/
+	/*background-size: cover;*/
+/*}*/
+/*.bg-label{*/
+	/*color: rgb(204,204,204);*/
+	/*font-size: 10rem;*/
+/*}*/
+.label-normal-work{
+	font-weight: 700;
+	font-size: 1.6rem;
+	color: rgb(51,51,51);
+}
+.label-normal-work2{
+	font-weight: 200;
+	font-size: 1.3rem;
+	color: rgb(51,51,51);
+}
 /*.input-contact:placeholder{
 	font-size: 1rem;
 	color: rgb(51,51,51);
