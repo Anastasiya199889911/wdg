@@ -1,3 +1,21 @@
+jQuery("document").ready(function($){
+
+	var nav = $('#nav-container');
+	var head=$('#head-container');
+	var head_height=head.height();
+
+	$(window).scroll(function () {
+
+	    var distanceToTop = head[0].getBoundingClientRect().top;
+		if (distanceToTop+head_height <=0) {
+			nav.addClass("f-nav");
+		} else {
+			nav.removeClass("f-nav");
+		}
+	});
+
+});
+// var distanceToTop = someDiv.getBoundingClientRect().top;
 // $(function(){
 //   $('a[href^="#"]').on('click', function(event) {
 //     // отменяем стандартное действие
