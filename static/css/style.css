@@ -1,5 +1,6 @@
 html{
 	font-size: 10px;
+    scroll-behavior: smooth;
 }
 .f-nav{ z-index: 9999; position: fixed; left: 0; top: 0; width: 100%;}
 .align-c{
@@ -24,6 +25,13 @@ html{
 	/*height: 70vh;*/
 	height: 100%;
 	background: url('../image/bg2.png') no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.body-img-4{
+	/*height: 70vh;*/
+	height: 100%;
+	background: url('../image/bg3.png') no-repeat center center;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -228,4 +236,142 @@ div .img{
 	color: rgb(63,158,252);
 	/*margin: auto;*/
 	/*vertical-align: middle;*/
+}
+.price-btn2{
+	padding: 0.8rem 1.3rem 0.8rem 1.3rem;
+	font-size: 1.4rem;
+	/*color: rgb(51,51,51);*/
+	color: rgb(25,70,114);
+	background: none;
+	/*background: rgb(51,51,51);*/
+	border: 3px solid rgb(25,70,114);
+	transition: .3s;
+}
+.price-btn2:hover{
+	text-decoration: none;
+	/*background: rgb(51,51,51);*/
+	/*background: rgb(63,158,252);*/
+	/*background-color: rgb(121,187,253);*/
+	background: rgb(25,70,114);
+	color: #fff;
+	transition: .3s;
+}
+.label-big-white{
+	font-size: 2.5rem;
+	/*font-size: 5.5vh;*/
+	/*font-size: 4vw;*/
+	font-weight: 400;
+	color: #fff;
+	margin-bottom: 2rem;
+}
+.icon-2{
+	font-size: 2.5rem;
+	/*font-size: 4vw;*/
+	/*color: #fff;*/
+	color:rgb(146,156,166);
+	/*vertical-align: middle;*/
+	/*margin-top: 3rem;*/
+}
+.label-normal-3-white{
+	font-weight: 200;
+	/*margin-top: 3rem;*/
+	/*margin-bottom: 3rem;*/
+	padding: 1rem;
+	font-size: 1.3rem;
+	/*font-size: 2.3vh;*/
+	/*line-height: 1.8rem;*/
+	color: #fff;
+	/*margin: auto;*/
+	/*vertical-align: middle;*/
+}
+.label-big{
+	font-size: 3.5rem;
+	font-weight: 700;
+	color: rgb(51,51,51);
+}
+.label-big-white-1{
+	font-size: 3.5rem;
+	font-weight: 700;
+	color: #fff;
+}
+.label-normal-contact{
+	font-weight: 400;
+	/*margin-top: 1rem;*/
+	font-size: 1.6rem;
+	/*line-height: 1.8rem;*/
+	color: rgb(51,51,51);
+}
+.label-normal-contact-white{
+	font-weight: 400;
+	/*margin-top: 1rem;*/
+	font-size: 1.6rem;
+	/*line-height: 1.8rem;*/
+	color: #fff;
+}
+.input-contact, .input-email{
+	font-weight: 400;
+	font-size: 1.6rem;
+	color: rgb(51,51,51);
+	width: 70%;
+	background-color: inherit;
+	border:none;
+	border-bottom: 1px solid rgb(51,51,51);
+}
+.input-email{
+	margin-top: 2rem;
+	width: 85%;
+}
+.input-contact::-webkit-input-placeholder, .input-email::-webkit-input-placeholder
+{
+	font-size: 1rem;
+	color: rgb(51,51,51);
+}
+.input-contact::-moz-placeholder, .input-email::-moz-placeholder
+{
+	font-size: 1rem;
+	color: rgb(51,51,51);
+}
+.input-contact:-moz-placeholder, .input-email:-moz-placeholder
+{
+	font-size: 1rem;
+	color: rgb(51,51,51);
+}
+.input-contact:-ms-input-placeholder, .input-email:-ms-input-placeholder
+{
+	font-size: 1rem;
+	color: rgb(51,51,51);
+}
+.label-big-contact{
+	font-size: 2rem;
+	/*font-size: 5.5vh;*/
+	/*font-size: 4vw;*/
+	font-weight: 700;
+	color: rgb(51,51,51);
+	margin-bottom: 3rem;
+}
+.label-big-contact-white{
+	font-size: 2rem;
+	/*font-size: 5.5vh;*/
+	/*font-size: 4vw;*/
+	font-weight: 500;
+	color: #fff;
+	margin-bottom: 3rem;
+}
+.label-big-black{
+	font-size: 2.5rem;
+	/*font-size: 5.5vh;*/
+	/*font-size: 4vw;*/
+	font-weight: 400;
+	color: rgb(51,51,51);
+	margin-bottom: 2rem;
+}
+.label-normal-work{
+	font-weight: 700;
+	font-size: 1.6rem;
+	color: rgb(51,51,51);
+}
+.label-normal-work2{
+	font-weight: 200;
+	font-size: 1.3rem;
+	color: rgb(51,51,51);
 }
