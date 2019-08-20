@@ -100,6 +100,37 @@ html{
 	/*font-size: 4.6vh;*/
 	color: rgb(63,158,252);
 }
+.label-big-contact{
+	font-size: 2rem;
+	/*font-size: 5.5vh;*/
+	/*font-size: 4vw;*/
+	font-weight: 700;
+	color: rgb(51,51,51);
+	margin-bottom: 3rem;
+}
+.label-big-contact-white{
+	font-size: 2rem;
+	/*font-size: 5.5vh;*/
+	/*font-size: 4vw;*/
+	font-weight: 500;
+	color: #fff;
+	margin-bottom: 3rem;
+}
+@media (max-width: 425px){
+    .body-label-r-1{
+        font-size: 2rem;
+    }
+    .body-label-r-2{
+	    font-size: 1.4rem;
+    }
+    .label-big-contact{
+	    font-size: 1.7rem;
+    }
+    .label-big-contact-white{
+        font-size: 1.7rem;
+    }
+}
+
 .label-space{
 	font-size: 1rem;
 	letter-spacing: .3rem;
@@ -107,7 +138,7 @@ html{
 	color: rgb(51,51,51);
 }
 .label-big-b{
-	font-size: 3.5rem;
+	font-size: 3rem;
 	font-weight: 700;
 	color: rgb(51,51,51);
 }
@@ -179,6 +210,12 @@ html{
 }
 .label-big-2-white{
 	font-size: 2rem;
+	font-weight: 500;
+	color: #fff;
+	padding: 1rem 0 1rem 0;
+}
+.label-big-3-white{
+	font-size: 1.8rem;
 	font-weight: 500;
 	color: #fff;
 	padding: 1rem 0 1rem 0;
@@ -257,7 +294,7 @@ div .img{
 	transition: .3s;
 }
 .label-big-white{
-	font-size: 2.5rem;
+	font-size: 2.4rem;
 	/*font-size: 5.5vh;*/
 	/*font-size: 4vw;*/
 	font-weight: 400;
@@ -265,7 +302,7 @@ div .img{
 	margin-bottom: 2rem;
 }
 .icon-2{
-	font-size: 2.5rem;
+	font-size: 2.2rem;
 	/*font-size: 4vw;*/
 	/*color: #fff;*/
 	color:rgb(146,156,166);
@@ -285,12 +322,12 @@ div .img{
 	/*vertical-align: middle;*/
 }
 .label-big{
-	font-size: 3.5rem;
+	font-size: 3rem;
 	font-weight: 700;
 	color: rgb(51,51,51);
 }
 .label-big-white-1{
-	font-size: 3.5rem;
+	font-size: 3rem;
 	font-weight: 700;
 	color: #fff;
 }
@@ -341,22 +378,7 @@ div .img{
 	font-size: 1rem;
 	color: rgb(51,51,51);
 }
-.label-big-contact{
-	font-size: 2rem;
-	/*font-size: 5.5vh;*/
-	/*font-size: 4vw;*/
-	font-weight: 700;
-	color: rgb(51,51,51);
-	margin-bottom: 3rem;
-}
-.label-big-contact-white{
-	font-size: 2rem;
-	/*font-size: 5.5vh;*/
-	/*font-size: 4vw;*/
-	font-weight: 500;
-	color: #fff;
-	margin-bottom: 3rem;
-}
+
 .label-big-black{
 	font-size: 2.5rem;
 	/*font-size: 5.5vh;*/
